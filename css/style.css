@@ -1,4 +1,21 @@
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+a.button {
+  border: 1px solid #000000;
+  padding: .4em 1em .4em 1em;
+  text-decoration: none;
+  color: #000000;
+  background-color: #aaaaaa;
+  border-radius: 200px;
+  font-weight: 500;
+  font-size: 80%;
+}
 body {
   width: 90%;
   justify-content: center;
@@ -10,8 +27,23 @@ body {
 h1 {
   font-weight: bolder;
   text-align: center;
+  margin-bottom: 0em;
 }
-
+h2 {
+  margin-top: 0em;
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color: #a5a5a5cb
+}
+p {
+  font-size: 15px;
+  font-weight: bold;
+}
 .contain {
   display: grid;
   grid-gap: 1em;
@@ -21,27 +53,31 @@ h1 {
   margin: auto;
 }
 .one {
+  padding: 10px;
   margin: inherit;
-  background-color: #646464cb;
+  background-color: #646464bb;
 }
 .imgtwo {
   margin: auto;
 }
 .two {
+  padding: 10px;
   margin: inherit;
-  background-color: #646464cb;
+  background-color: #646464bb;
 }
 .imgthree {
   margin: auto;
 }
 .three {
+  padding: 10px;
   margin: inherit;
-  background-color: #646464cb;
+  background-color: #646464bb;
 }
 .imgfour {
   margin: auto;
 }
 .four {
+  padding: 10px;
   margin: inherit;
-  background-color: #646464cb;
+  background-color: #646464bb;
 }
