@@ -1,12 +1,14 @@
 
 body {
-  width: 80%;
+  width: 90%;
   justify-content: center;
-  margin: 1em 5em;
-  background-image: url("sea.jpg");
+  margin: 1em 3em;
+  background-image: url("https://envirotecmagazine.com/wp-content/uploads/2019/09/seagrass.jpg");
+  background-size: 100%;
 }
 
 h1 {
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -20,14 +22,26 @@ h1 {
 }
 .one {
   margin: inherit;
-  background-color: #646464ab;
+  background-color: #646464cb;
 }
 .imgtwo {
   margin: auto;
 }
+.two {
+  margin: inherit;
+  background-color: #646464cb;
+}
 .imgthree {
   margin: auto;
 }
+.three {
+  margin: inherit;
+  background-color: #646464cb;
+}
 .imgfour {
   margin: auto;
+}
+.four {
+  margin: inherit;
+  background-color: #646464cb;
 }
