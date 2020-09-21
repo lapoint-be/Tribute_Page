@@ -5,6 +5,7 @@ nav {
   justify-content: space-around;
   list-style: none;
   text-decoration: none;
+  margin-top: 1em;
 }
 a.button {
   border: 1px solid #000000;
@@ -18,8 +19,7 @@ a.button {
 }
 body {
   width: 90%;
-  justify-content: center;
-  margin: 1em 3em;
+  margin: auto;
   background-image: url("https://envirotecmagazine.com/wp-content/uploads/2019/09/seagrass.jpg");
   background-size: 100%;
 }
@@ -80,4 +80,18 @@ p {
   padding: 10px;
   margin: inherit;
   background-color: #646464bb;
+}
+
+footer {
+  background-color: #333333;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  left: 0;
+  color: #ababab;
+  text-align: center;
+}
+
+.spacer {
+  height: 60px;
 }
